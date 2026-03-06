@@ -71,7 +71,7 @@ GRPO_CONFIG = {
         "distributed": "ddp",
         "gpu_count": 4,
         "use_lora": True,
-        "batch_size": 4,
+        "batch_size": 2,
         "vllm_gpu_memory_utilization": 0.8,
     },
     "15_20_b": {
@@ -98,7 +98,7 @@ GRPO_CONFIG = {
         "distributed": "ddp",
         "gpu_count": 8,
         "use_lora": True,
-        "batch_size": 4,
+        "batch_size": 2,
         "vllm_gpu_memory_utilization": 0.7,
         "use_vllm": False,
         "use_4bit": True,
